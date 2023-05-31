@@ -18,12 +18,26 @@ const Form = ({ type, post, setPost, submitting, handleSubmit }) => {
         <label htmlFor="tagSelect">Select a tag:</label>
         <select id="tagSelect" value={post.tag} onChange={(e) => setPost({ ...post, tag: e.target.value })} required className="form_input">
           <option value="">Select a tag</option>
-          <option value="#Next.js">#Next.js</option>
+          <option value="#Angular">#Angular</option>
+          <option value="#C#">#C#</option>
+          <option value="#Django">#Django</option>
+          <option value="#Flutter">#Flutter</option>
+          <option value="#Java">#Java</option>
           <option value="#JavaScript">#JavaScript</option>
-          <option value="#React">#React</option>
+          <option value="#Kotlin">#Kotlin</option>
           <option value="#MongoDB">#MongoDB</option>
-          <option value="#PHP">#PHP</option>
           <option value="#MySQL">#MySQL</option>
+          <option value="#Next.js">#Next.js</option>
+          <option value="#PHP">#PHP</option>
+          <option value="#PostgreSQL">#PostgreSQL</option>
+          <option value="#Python">#Python</option>
+          <option value="#React">#React</option>
+          <option value="#React Native">#React Native</option>
+          <option value="#Ruby on Rails">#Ruby on Rails</option>
+          <option value="#SQLite">#SQLite</option>
+          <option value="#Swift">#Swift</option>
+          <option value="#Vue.js">#Vue.js</option>
+          <option value="#Xamarin">#Xamarin</option>
         </select>
         <div className="flex-end mx-3 mb-5 gap-4">
           <Link href="/" className="text-gray-500 text-sm">
